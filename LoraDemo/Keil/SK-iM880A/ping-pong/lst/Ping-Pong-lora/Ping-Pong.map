@@ -1302,7 +1302,6 @@ Removing Unused input sections from the image.
     Removing main.o(.data), (1 bytes).
     Removing main.o(.data), (2 bytes).
     Removing main.o(.data), (2 bytes).
-    Removing main.o(.data), (2 bytes).
     Removing main.o(.data), (1 bytes).
     Removing main.o(.data), (1 bytes).
     Removing main.o(.data), (1 bytes).
@@ -1776,7 +1775,7 @@ Removing Unused input sections from the image.
     Removing fscalb.o(.text), (24 bytes).
     Removing dsqrt.o(.text), (162 bytes).
 
-482 unused section(s) (total 15498 bytes) removed from the image.
+481 unused section(s) (total 15496 bytes) removed from the image.
 
 ==============================================================================
 
@@ -2216,64 +2215,64 @@ Image Symbol Table
     i.log                                    0x08004738   Section        0  log.o(i.log)
     i.log10                                  0x08004a94   Section        0  log10.o(i.log10)
     i.main                                   0x08004b78   Section        0  main.o(i.main)
-    i.malloc                                 0x08004d7c   Section        0  malloc.o(i.malloc)
-    i.memcpy1                                0x08004de8   Section        0  utilities.o(i.memcpy1)
-    i.round                                  0x08004dfc   Section        0  round.o(i.round)
-    .constdata                               0x08004e90   Section       24  rtc-board.o(.constdata)
-    DaysInMonth                              0x08004e90   Data          12  rtc-board.o(.constdata)
-    DaysInMonthLeapYear                      0x08004e9c   Data          12  rtc-board.o(.constdata)
-    .constdata                               0x08004ea8   Section       84  sx1272-board.o(.constdata)
-    .constdata                               0x08004efc   Section      224  sx1272.o(.constdata)
-    .constdata                               0x08004fe0   Section       56  log.o(.constdata)
-    Lg2                                      0x08004fe0   Data          24  log.o(.constdata)
-    Lg                                       0x08004ff8   Data          32  log.o(.constdata)
-    .constdata                               0x08005018   Section        8  qnan.o(.constdata)
-    .data                                    0x20000000   Section       15  main.o(.data)
-    .data                                    0x2000000f   Section        1  board.o(.data)
-    McuInitialized                           0x2000000f   Data           1  board.o(.data)
-    .data                                    0x20000010   Section       16  rtc-board.o(.data)
-    RtcInitalized                            0x20000010   Data           1  rtc-board.o(.data)
-    RtcTimerEventAllowsLowPower              0x20000011   Data           1  rtc-board.o(.data)
-    LowPowerDisableDuringTask                0x20000012   Data           1  rtc-board.o(.data)
-    PreviousYear                             0x20000013   Data           1  rtc-board.o(.data)
-    Century                                  0x20000014   Data           1  rtc-board.o(.data)
-    RtcTimerContext                          0x20000018   Data           8  rtc-board.o(.data)
-    .data                                    0x20000020   Section        1  sx1272-board.o(.data)
-    RadioIsActive                            0x20000020   Data           1  sx1272-board.o(.data)
-    .data                                    0x20000028   Section       32  timer-board.o(.data)
-    TimerTickCounterContext                  0x20000038   Data           8  timer-board.o(.data)
-    .data                                    0x20000048   Section        2  uart-board.o(.data)
-    cnt                                      0x20000048   Data           1  uart-board.o(.data)
-    .data                                    0x2000004c   Section       29  system_stm32l1xx.o(.data)
-    .data                                    0x20000069   Section       25  stm32l1xx_rcc.o(.data)
-    PLLMulTable                              0x20000069   Data           9  stm32l1xx_rcc.o(.data)
-    APBAHBPrescTable                         0x20000072   Data          16  stm32l1xx_rcc.o(.data)
-    .data                                    0x20000084   Section       32  sx1272.o(.data)
-    opModePrev                               0x20000084   Data           1  sx1272.o(.data)
-    RadioEvents                              0x20000088   Data           4  sx1272.o(.data)
-    .data                                    0x200000a4   Section        1  adc_1.o(.data)
-    AdcInitialized                           0x200000a4   Data           1  adc_1.o(.data)
-    .data                                    0x200000a8   Section        8  timer.o(.data)
-    LowPowerModeEnable                       0x200000a8   Data           1  timer.o(.data)
-    TimerListHead                            0x200000ac   Data           4  timer.o(.data)
-    .data                                    0x200000b0   Section        4  stdout.o(.data)
-    .data                                    0x200000b4   Section        4  mvars.o(.data)
-    .data                                    0x200000b8   Section        4  mvars.o(.data)
-    .data                                    0x200000bc   Section        4  errno.o(.data)
-    _errno                                   0x200000bc   Data           4  errno.o(.data)
-    .bss                                     0x200000c0   Section       28  main.o(.bss)
-    RadioEvents                              0x200000c0   Data          28  main.o(.bss)
-    .bss                                     0x200000dc   Section       52  board.o(.bss)
-    .bss                                     0x20000110   Section       56  board.o(.bss)
-    .bss                                     0x20000148   Section       64  gpio-board.o(.bss)
-    GpioIrq                                  0x20000148   Data          64  gpio-board.o(.bss)
-    .bss                                     0x20000188   Section       18  spi-board.o(.bss)
-    .bss                                     0x2000019c   Section       24  sx1272-board.o(.bss)
-    .bss                                     0x200001b4   Section       53  uart-board.o(.bss)
-    .bss                                     0x200001ec   Section      548  sx1272.o(.bss)
-    RxTxBuffer                               0x200001ec   Data         256  sx1272.o(.bss)
-    HEAP                                     0x20000410   Section      512  startup_stm32l1xx_md.o(HEAP)
-    STACK                                    0x20000610   Section     1024  startup_stm32l1xx_md.o(STACK)
+    i.malloc                                 0x08004dac   Section        0  malloc.o(i.malloc)
+    i.memcpy1                                0x08004e18   Section        0  utilities.o(i.memcpy1)
+    i.round                                  0x08004e2c   Section        0  round.o(i.round)
+    .constdata                               0x08004ec0   Section       24  rtc-board.o(.constdata)
+    DaysInMonth                              0x08004ec0   Data          12  rtc-board.o(.constdata)
+    DaysInMonthLeapYear                      0x08004ecc   Data          12  rtc-board.o(.constdata)
+    .constdata                               0x08004ed8   Section       84  sx1272-board.o(.constdata)
+    .constdata                               0x08004f2c   Section      224  sx1272.o(.constdata)
+    .constdata                               0x08005010   Section       56  log.o(.constdata)
+    Lg2                                      0x08005010   Data          24  log.o(.constdata)
+    Lg                                       0x08005028   Data          32  log.o(.constdata)
+    .constdata                               0x08005048   Section        8  qnan.o(.constdata)
+    .data                                    0x20000000   Section       17  main.o(.data)
+    .data                                    0x20000011   Section        1  board.o(.data)
+    McuInitialized                           0x20000011   Data           1  board.o(.data)
+    .data                                    0x20000018   Section       16  rtc-board.o(.data)
+    RtcInitalized                            0x20000018   Data           1  rtc-board.o(.data)
+    RtcTimerEventAllowsLowPower              0x20000019   Data           1  rtc-board.o(.data)
+    LowPowerDisableDuringTask                0x2000001a   Data           1  rtc-board.o(.data)
+    PreviousYear                             0x2000001b   Data           1  rtc-board.o(.data)
+    Century                                  0x2000001c   Data           1  rtc-board.o(.data)
+    RtcTimerContext                          0x20000020   Data           8  rtc-board.o(.data)
+    .data                                    0x20000028   Section        1  sx1272-board.o(.data)
+    RadioIsActive                            0x20000028   Data           1  sx1272-board.o(.data)
+    .data                                    0x20000030   Section       32  timer-board.o(.data)
+    TimerTickCounterContext                  0x20000040   Data           8  timer-board.o(.data)
+    .data                                    0x20000050   Section        2  uart-board.o(.data)
+    cnt                                      0x20000050   Data           1  uart-board.o(.data)
+    .data                                    0x20000054   Section       29  system_stm32l1xx.o(.data)
+    .data                                    0x20000071   Section       25  stm32l1xx_rcc.o(.data)
+    PLLMulTable                              0x20000071   Data           9  stm32l1xx_rcc.o(.data)
+    APBAHBPrescTable                         0x2000007a   Data          16  stm32l1xx_rcc.o(.data)
+    .data                                    0x2000008c   Section       32  sx1272.o(.data)
+    opModePrev                               0x2000008c   Data           1  sx1272.o(.data)
+    RadioEvents                              0x20000090   Data           4  sx1272.o(.data)
+    .data                                    0x200000ac   Section        1  adc_1.o(.data)
+    AdcInitialized                           0x200000ac   Data           1  adc_1.o(.data)
+    .data                                    0x200000b0   Section        8  timer.o(.data)
+    LowPowerModeEnable                       0x200000b0   Data           1  timer.o(.data)
+    TimerListHead                            0x200000b4   Data           4  timer.o(.data)
+    .data                                    0x200000b8   Section        4  stdout.o(.data)
+    .data                                    0x200000bc   Section        4  mvars.o(.data)
+    .data                                    0x200000c0   Section        4  mvars.o(.data)
+    .data                                    0x200000c4   Section        4  errno.o(.data)
+    _errno                                   0x200000c4   Data           4  errno.o(.data)
+    .bss                                     0x200000c8   Section       28  main.o(.bss)
+    RadioEvents                              0x200000c8   Data          28  main.o(.bss)
+    .bss                                     0x200000e4   Section       52  board.o(.bss)
+    .bss                                     0x20000118   Section       56  board.o(.bss)
+    .bss                                     0x20000150   Section       64  gpio-board.o(.bss)
+    GpioIrq                                  0x20000150   Data          64  gpio-board.o(.bss)
+    .bss                                     0x20000190   Section       18  spi-board.o(.bss)
+    .bss                                     0x200001a4   Section       24  sx1272-board.o(.bss)
+    .bss                                     0x200001bc   Section       53  uart-board.o(.bss)
+    .bss                                     0x200001f4   Section      548  sx1272.o(.bss)
+    RxTxBuffer                               0x200001f4   Data         256  sx1272.o(.bss)
+    HEAP                                     0x20000418   Section      512  startup_stm32l1xx_md.o(HEAP)
+    STACK                                    0x20000618   Section     1024  startup_stm32l1xx_md.o(STACK)
 
     Global Symbols
 
@@ -2618,50 +2617,51 @@ Image Symbol Table
     int2array                                0x080046f1   Thumb Code    70  main.o(i.int2array)
     log                                      0x08004739   Thumb Code   808  log.o(i.log)
     log10                                    0x08004a95   Thumb Code   198  log10.o(i.log10)
-    main                                     0x08004b79   Thumb Code   332  main.o(i.main)
-    malloc                                   0x08004d7d   Thumb Code    92  malloc.o(i.malloc)
-    memcpy1                                  0x08004de9   Thumb Code    18  utilities.o(i.memcpy1)
-    round                                    0x08004dfd   Thumb Code   136  round.o(i.round)
-    Radio                                    0x08004ea8   Data          84  sx1272-board.o(.constdata)
-    RadioRegsInit                            0x08004efc   Data          48  sx1272.o(.constdata)
-    FskBandwidths                            0x08004f2c   Data         176  sx1272.o(.constdata)
-    __mathlib_zero                           0x08005018   Data           8  qnan.o(.constdata)
-    Region$$Table$$Base                      0x08005020   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08005040   Number         0  anon$$obj.o(Region$$Table)
+    main                                     0x08004b79   Thumb Code   384  main.o(i.main)
+    malloc                                   0x08004dad   Thumb Code    92  malloc.o(i.malloc)
+    memcpy1                                  0x08004e19   Thumb Code    18  utilities.o(i.memcpy1)
+    round                                    0x08004e2d   Thumb Code   136  round.o(i.round)
+    Radio                                    0x08004ed8   Data          84  sx1272-board.o(.constdata)
+    RadioRegsInit                            0x08004f2c   Data          48  sx1272.o(.constdata)
+    FskBandwidths                            0x08004f5c   Data         176  sx1272.o(.constdata)
+    __mathlib_zero                           0x08005048   Data           8  qnan.o(.constdata)
+    Region$$Table$$Base                      0x08005050   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08005070   Number         0  anon$$obj.o(Region$$Table)
     State                                    0x20000000   Data           1  main.o(.data)
     BufferSize                               0x20000002   Data           2  main.o(.data)
     RssiValue                                0x20000004   Data           2  main.o(.data)
     SnrValue                                 0x20000006   Data           2  main.o(.data)
-    dem3                                     0x20000008   Data           2  main.o(.data)
-    Buffer                                   0x2000000a   Data           5  main.o(.data)
-    TimerDelayCounter                        0x20000028   Data           4  timer-board.o(.data)
-    TimerTickCounter                         0x20000030   Data           8  timer-board.o(.data)
-    TimeoutCntValue                          0x20000040   Data           8  timer-board.o(.data)
-    gps_received                             0x20000049   Data           1  uart-board.o(.data)
-    SystemCoreClock                          0x2000004c   Data           4  system_stm32l1xx.o(.data)
-    PLLMulTable                              0x20000050   Data           9  system_stm32l1xx.o(.data)
-    AHBPrescTable                            0x20000059   Data          16  system_stm32l1xx.o(.data)
-    DioIrq                                   0x2000008c   Data          24  sx1272.o(.data)
-    HasLoopedThroughMain                     0x200000a9   Data           1  timer.o(.data)
-    __stdout                                 0x200000b0   Data           4  stdout.o(.data)
-    __microlib_freelist                      0x200000b4   Data           4  mvars.o(.data)
-    __microlib_freelist_initialised          0x200000b8   Data           4  mvars.o(.data)
-    Led2                                     0x200000dc   Data          12  board.o(.bss)
-    Led3                                     0x200000e8   Data          12  board.o(.bss)
-    Led4                                     0x200000f4   Data          12  board.o(.bss)
-    Adc                                      0x20000100   Data          16  board.o(.bss)
-    Uart1                                    0x20000110   Data          56  board.o(.bss)
-    SPI_InitStructure                        0x20000188   Data          18  spi-board.o(.bss)
-    AntRx                                    0x2000019c   Data          12  sx1272-board.o(.bss)
-    AntTx                                    0x200001a8   Data          12  sx1272-board.o(.bss)
-    received_data                            0x200001b4   Data          53  uart-board.o(.bss)
-    SX1272                                   0x200002ec   Data         232  sx1272.o(.bss)
-    TxTimeoutTimer                           0x200003d4   Data          20  sx1272.o(.bss)
-    RxTimeoutTimer                           0x200003e8   Data          20  sx1272.o(.bss)
-    RxTimeoutSyncWord                        0x200003fc   Data          20  sx1272.o(.bss)
-    __heap_base                              0x20000410   Data           0  startup_stm32l1xx_md.o(HEAP)
-    __heap_limit                             0x20000610   Data           0  startup_stm32l1xx_md.o(HEAP)
-    __initial_sp                             0x20000a10   Data           0  startup_stm32l1xx_md.o(STACK)
+    dem2                                     0x20000008   Data           2  main.o(.data)
+    dem1                                     0x2000000a   Data           2  main.o(.data)
+    Buffer                                   0x2000000c   Data           5  main.o(.data)
+    TimerDelayCounter                        0x20000030   Data           4  timer-board.o(.data)
+    TimerTickCounter                         0x20000038   Data           8  timer-board.o(.data)
+    TimeoutCntValue                          0x20000048   Data           8  timer-board.o(.data)
+    gps_received                             0x20000051   Data           1  uart-board.o(.data)
+    SystemCoreClock                          0x20000054   Data           4  system_stm32l1xx.o(.data)
+    PLLMulTable                              0x20000058   Data           9  system_stm32l1xx.o(.data)
+    AHBPrescTable                            0x20000061   Data          16  system_stm32l1xx.o(.data)
+    DioIrq                                   0x20000094   Data          24  sx1272.o(.data)
+    HasLoopedThroughMain                     0x200000b1   Data           1  timer.o(.data)
+    __stdout                                 0x200000b8   Data           4  stdout.o(.data)
+    __microlib_freelist                      0x200000bc   Data           4  mvars.o(.data)
+    __microlib_freelist_initialised          0x200000c0   Data           4  mvars.o(.data)
+    Led2                                     0x200000e4   Data          12  board.o(.bss)
+    Led3                                     0x200000f0   Data          12  board.o(.bss)
+    Led4                                     0x200000fc   Data          12  board.o(.bss)
+    Adc                                      0x20000108   Data          16  board.o(.bss)
+    Uart1                                    0x20000118   Data          56  board.o(.bss)
+    SPI_InitStructure                        0x20000190   Data          18  spi-board.o(.bss)
+    AntRx                                    0x200001a4   Data          12  sx1272-board.o(.bss)
+    AntTx                                    0x200001b0   Data          12  sx1272-board.o(.bss)
+    received_data                            0x200001bc   Data          53  uart-board.o(.bss)
+    SX1272                                   0x200002f4   Data         232  sx1272.o(.bss)
+    TxTimeoutTimer                           0x200003dc   Data          20  sx1272.o(.bss)
+    RxTimeoutTimer                           0x200003f0   Data          20  sx1272.o(.bss)
+    RxTimeoutSyncWord                        0x20000404   Data          20  sx1272.o(.bss)
+    __heap_base                              0x20000418   Data           0  startup_stm32l1xx_md.o(HEAP)
+    __heap_limit                             0x20000618   Data           0  startup_stm32l1xx_md.o(HEAP)
+    __initial_sp                             0x20000a18   Data           0  startup_stm32l1xx_md.o(STACK)
 
 
 
@@ -2671,326 +2671,327 @@ Memory Map of the image
 
   Image Entry point : 0x080000f5
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00005100, Max: 0x00020000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00005138, Max: 0x00020000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00005040, Max: 0x00020000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00005070, Max: 0x00020000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x08000000   0x000000f4   Data   RO         1004    RESET               startup_stm32l1xx_md.o
-    0x080000f4   0x00000000   Code   RO         4420  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x080000f4   0x00000004   Code   RO         4808    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x080000f8   0x00000004   Code   RO         4811    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x080000fc   0x00000000   Code   RO         4813    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x080000fc   0x00000000   Code   RO         4815    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x080000fc   0x00000008   Code   RO         4816    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000104   0x00000000   Code   RO         4818    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000104   0x00000000   Code   RO         4820    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000104   0x00000004   Code   RO         4809    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
-    0x08000108   0x00000024   Code   RO         1005    .text               startup_stm32l1xx_md.o
-    0x0800012c   0x00000024   Code   RO         4423    .text               mc_w.l(memcpya.o)
-    0x08000150   0x00000024   Code   RO         4425    .text               mc_w.l(memseta.o)
-    0x08000174   0x00000018   Code   RO         4427    .text               mc_w.l(strcat.o)
-    0x0800018c   0x0000014e   Code   RO         4728    .text               mf_w.l(dadd.o)
-    0x080002da   0x000000e4   Code   RO         4730    .text               mf_w.l(dmul.o)
-    0x080003be   0x000000de   Code   RO         4732    .text               mf_w.l(ddiv.o)
-    0x0800049c   0x0000002e   Code   RO         4734    .text               mf_w.l(dscalb.o)
-    0x080004ca   0x00000022   Code   RO         4738    .text               mf_w.l(dflti.o)
-    0x080004ec   0x0000001a   Code   RO         4740    .text               mf_w.l(dfltui.o)
-    0x08000506   0x00000018   Code   RO         4742    .text               mf_w.l(dfltul.o)
-    0x0800051e   0x0000003e   Code   RO         4746    .text               mf_w.l(dfixi.o)
-    0x0800055c   0x00000032   Code   RO         4748    .text               mf_w.l(dfixui.o)
-    0x0800058e   0x00000030   Code   RO         4750    .text               mf_w.l(dfixul.o)
+    0x08000000   0x000000f4   Data   RO         1003    RESET               startup_stm32l1xx_md.o
+    0x080000f4   0x00000000   Code   RO         4419  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x080000f4   0x00000004   Code   RO         4807    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x080000f8   0x00000004   Code   RO         4810    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x080000fc   0x00000000   Code   RO         4812    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x080000fc   0x00000000   Code   RO         4814    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x080000fc   0x00000008   Code   RO         4815    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000104   0x00000000   Code   RO         4817    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000104   0x00000000   Code   RO         4819    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000104   0x00000004   Code   RO         4808    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000108   0x00000024   Code   RO         1004    .text               startup_stm32l1xx_md.o
+    0x0800012c   0x00000024   Code   RO         4422    .text               mc_w.l(memcpya.o)
+    0x08000150   0x00000024   Code   RO         4424    .text               mc_w.l(memseta.o)
+    0x08000174   0x00000018   Code   RO         4426    .text               mc_w.l(strcat.o)
+    0x0800018c   0x0000014e   Code   RO         4727    .text               mf_w.l(dadd.o)
+    0x080002da   0x000000e4   Code   RO         4729    .text               mf_w.l(dmul.o)
+    0x080003be   0x000000de   Code   RO         4731    .text               mf_w.l(ddiv.o)
+    0x0800049c   0x0000002e   Code   RO         4733    .text               mf_w.l(dscalb.o)
+    0x080004ca   0x00000022   Code   RO         4737    .text               mf_w.l(dflti.o)
+    0x080004ec   0x0000001a   Code   RO         4739    .text               mf_w.l(dfltui.o)
+    0x08000506   0x00000018   Code   RO         4741    .text               mf_w.l(dfltul.o)
+    0x0800051e   0x0000003e   Code   RO         4745    .text               mf_w.l(dfixi.o)
+    0x0800055c   0x00000032   Code   RO         4747    .text               mf_w.l(dfixui.o)
+    0x0800058e   0x00000030   Code   RO         4749    .text               mf_w.l(dfixul.o)
     0x080005be   0x00000002   PAD
-    0x080005c0   0x00000030   Code   RO         4754    .text               mf_w.l(cdcmple.o)
-    0x080005f0   0x00000030   Code   RO         4756    .text               mf_w.l(cdrcmple.o)
-    0x08000620   0x0000002c   Code   RO         4823    .text               mc_w.l(uidiv.o)
-    0x0800064c   0x0000001e   Code   RO         4827    .text               mc_w.l(llshl.o)
-    0x0800066a   0x00000020   Code   RO         4829    .text               mc_w.l(llushr.o)
-    0x0800068a   0x00000024   Code   RO         4831    .text               mc_w.l(llsshr.o)
-    0x080006ae   0x00000000   Code   RO         4842    .text               mc_w.l(iusefp.o)
-    0x080006ae   0x000000ba   Code   RO         4847    .text               mf_w.l(depilogue.o)
-    0x08000768   0x00000088   Code   RO         4849    .text               mf_w.l(drnd.o)
-    0x080007f0   0x00000024   Code   RO         4864    .text               mc_w.l(init.o)
-    0x08000814   0x00000014   Code   RO         1161    i.ADC_CommonInit    stm32l1xx_adc.o
-    0x08000828   0x00000024   Code   RO         1166    i.ADC_DeInit        stm32l1xx_adc.o
-    0x0800084c   0x0000000c   Code   RO         1167    i.ADC_DelaySelectionConfig  stm32l1xx_adc.o
-    0x08000858   0x0000004c   Code   RO         1180    i.ADC_Init          stm32l1xx_adc.o
-    0x080008a4   0x00000018   Code   RO         1189    i.ADC_StructInit    stm32l1xx_adc.o
-    0x080008bc   0x0000002c   Code   RO         3843    i.AdcInit           adc_1.o
-    0x080008e8   0x000000d8   Code   RO          311    i.AdcMcuFormat      adc-board.o
-    0x080009c0   0x00000028   Code   RO          312    i.AdcMcuInit        adc-board.o
-    0x080009e8   0x00000078   Code   RO          364    i.BoardInitMcu      board.o
-    0x08000a60   0x00000060   Code   RO          365    i.BoardInitPeriph   board.o
-    0x08000ac0   0x00000042   Code   RO          368    i.BoardUnusedIoInit  board.o
-    0x08000b02   0x00000002   Code   RO         3521    i.BusFault_Handler  sysirqhandlers.o
-    0x08000b04   0x0000001c   Code   RO         1397    i.DBGMCU_Config     stm32l1xx_dbgmcu.o
-    0x08000b20   0x00000002   Code   RO         3522    i.DebugMon_Handler  sysirqhandlers.o
-    0x08000b22   0x0000001e   Code   RO         3877    i.DelayMs           delay.o
-    0x08000b40   0x00000030   Code   RO          436    i.EXTI0_IRQHandler  gpio-board.o
-    0x08000b70   0x000000ac   Code   RO          437    i.EXTI15_10_IRQHandler  gpio-board.o
-    0x08000c1c   0x00000030   Code   RO          438    i.EXTI1_IRQHandler  gpio-board.o
-    0x08000c4c   0x00000030   Code   RO          439    i.EXTI2_IRQHandler  gpio-board.o
-    0x08000c7c   0x00000030   Code   RO          440    i.EXTI3_IRQHandler  gpio-board.o
-    0x08000cac   0x00000030   Code   RO          441    i.EXTI4_IRQHandler  gpio-board.o
-    0x08000cdc   0x00000088   Code   RO          442    i.EXTI9_5_IRQHandler  gpio-board.o
-    0x08000d64   0x0000000c   Code   RO         1520    i.EXTI_ClearITPendingBit  stm32l1xx_exti.o
-    0x08000d70   0x00000014   Code   RO         1524    i.EXTI_GetITStatus  stm32l1xx_exti.o
-    0x08000d84   0x00000074   Code   RO         1525    i.EXTI_Init         stm32l1xx_exti.o
-    0x08000df8   0x00000010   Code   RO         3902    i.FifoNext          fifo.o
-    0x08000e08   0x0000001e   Code   RO         3903    i.FifoPop           fifo.o
-    0x08000e26   0x00000016   Code   RO         3904    i.FifoPush          fifo.o
-    0x08000e3c   0x0000007a   Code   RO         1582    i.GPIO_Init         stm32l1xx_gpio.o
-    0x08000eb6   0x00000020   Code   RO         1583    i.GPIO_PinAFConfig  stm32l1xx_gpio.o
-    0x08000ed6   0x0000000e   Code   RO         1586    i.GPIO_ReadInputDataBit  stm32l1xx_gpio.o
-    0x08000ee4   0x00000004   Code   RO         1589    i.GPIO_ResetBits    stm32l1xx_gpio.o
-    0x08000ee8   0x00000004   Code   RO         1590    i.GPIO_SetBits      stm32l1xx_gpio.o
+    0x080005c0   0x00000030   Code   RO         4753    .text               mf_w.l(cdcmple.o)
+    0x080005f0   0x00000030   Code   RO         4755    .text               mf_w.l(cdrcmple.o)
+    0x08000620   0x0000002c   Code   RO         4822    .text               mc_w.l(uidiv.o)
+    0x0800064c   0x0000001e   Code   RO         4826    .text               mc_w.l(llshl.o)
+    0x0800066a   0x00000020   Code   RO         4828    .text               mc_w.l(llushr.o)
+    0x0800068a   0x00000024   Code   RO         4830    .text               mc_w.l(llsshr.o)
+    0x080006ae   0x00000000   Code   RO         4841    .text               mc_w.l(iusefp.o)
+    0x080006ae   0x000000ba   Code   RO         4846    .text               mf_w.l(depilogue.o)
+    0x08000768   0x00000088   Code   RO         4848    .text               mf_w.l(drnd.o)
+    0x080007f0   0x00000024   Code   RO         4863    .text               mc_w.l(init.o)
+    0x08000814   0x00000014   Code   RO         1160    i.ADC_CommonInit    stm32l1xx_adc.o
+    0x08000828   0x00000024   Code   RO         1165    i.ADC_DeInit        stm32l1xx_adc.o
+    0x0800084c   0x0000000c   Code   RO         1166    i.ADC_DelaySelectionConfig  stm32l1xx_adc.o
+    0x08000858   0x0000004c   Code   RO         1179    i.ADC_Init          stm32l1xx_adc.o
+    0x080008a4   0x00000018   Code   RO         1188    i.ADC_StructInit    stm32l1xx_adc.o
+    0x080008bc   0x0000002c   Code   RO         3842    i.AdcInit           adc_1.o
+    0x080008e8   0x000000d8   Code   RO          310    i.AdcMcuFormat      adc-board.o
+    0x080009c0   0x00000028   Code   RO          311    i.AdcMcuInit        adc-board.o
+    0x080009e8   0x00000078   Code   RO          363    i.BoardInitMcu      board.o
+    0x08000a60   0x00000060   Code   RO          364    i.BoardInitPeriph   board.o
+    0x08000ac0   0x00000042   Code   RO          367    i.BoardUnusedIoInit  board.o
+    0x08000b02   0x00000002   Code   RO         3520    i.BusFault_Handler  sysirqhandlers.o
+    0x08000b04   0x0000001c   Code   RO         1396    i.DBGMCU_Config     stm32l1xx_dbgmcu.o
+    0x08000b20   0x00000002   Code   RO         3521    i.DebugMon_Handler  sysirqhandlers.o
+    0x08000b22   0x0000001e   Code   RO         3876    i.DelayMs           delay.o
+    0x08000b40   0x00000030   Code   RO          435    i.EXTI0_IRQHandler  gpio-board.o
+    0x08000b70   0x000000ac   Code   RO          436    i.EXTI15_10_IRQHandler  gpio-board.o
+    0x08000c1c   0x00000030   Code   RO          437    i.EXTI1_IRQHandler  gpio-board.o
+    0x08000c4c   0x00000030   Code   RO          438    i.EXTI2_IRQHandler  gpio-board.o
+    0x08000c7c   0x00000030   Code   RO          439    i.EXTI3_IRQHandler  gpio-board.o
+    0x08000cac   0x00000030   Code   RO          440    i.EXTI4_IRQHandler  gpio-board.o
+    0x08000cdc   0x00000088   Code   RO          441    i.EXTI9_5_IRQHandler  gpio-board.o
+    0x08000d64   0x0000000c   Code   RO         1519    i.EXTI_ClearITPendingBit  stm32l1xx_exti.o
+    0x08000d70   0x00000014   Code   RO         1523    i.EXTI_GetITStatus  stm32l1xx_exti.o
+    0x08000d84   0x00000074   Code   RO         1524    i.EXTI_Init         stm32l1xx_exti.o
+    0x08000df8   0x00000010   Code   RO         3901    i.FifoNext          fifo.o
+    0x08000e08   0x0000001e   Code   RO         3902    i.FifoPop           fifo.o
+    0x08000e26   0x00000016   Code   RO         3903    i.FifoPush          fifo.o
+    0x08000e3c   0x0000007a   Code   RO         1581    i.GPIO_Init         stm32l1xx_gpio.o
+    0x08000eb6   0x00000020   Code   RO         1582    i.GPIO_PinAFConfig  stm32l1xx_gpio.o
+    0x08000ed6   0x0000000e   Code   RO         1585    i.GPIO_ReadInputDataBit  stm32l1xx_gpio.o
+    0x08000ee4   0x00000004   Code   RO         1588    i.GPIO_ResetBits    stm32l1xx_gpio.o
+    0x08000ee8   0x00000004   Code   RO         1589    i.GPIO_SetBits      stm32l1xx_gpio.o
     0x08000eec   0x0000004a   Code   RO            4    i.GPS_Convert       main.o
     0x08000f36   0x00000002   PAD
-    0x08000f38   0x0000002c   Code   RO         3623    i.GetFskBandwidthRegValue  sx1272.o
-    0x08000f64   0x00000018   Code   RO         3949    i.GpioInit          gpio.o
-    0x08000f7c   0x00000084   Code   RO          443    i.GpioMcuInit       gpio-board.o
-    0x08001000   0x0000001a   Code   RO          444    i.GpioMcuRead       gpio-board.o
+    0x08000f38   0x0000002c   Code   RO         3622    i.GetFskBandwidthRegValue  sx1272.o
+    0x08000f64   0x00000018   Code   RO         3948    i.GpioInit          gpio.o
+    0x08000f7c   0x00000084   Code   RO          442    i.GpioMcuInit       gpio-board.o
+    0x08001000   0x0000001a   Code   RO          443    i.GpioMcuRead       gpio-board.o
     0x0800101a   0x00000002   PAD
-    0x0800101c   0x000000f8   Code   RO          446    i.GpioMcuSetInterrupt  gpio-board.o
-    0x08001114   0x00000026   Code   RO          447    i.GpioMcuWrite      gpio-board.o
-    0x0800113a   0x00000014   Code   RO         3950    i.GpioRead          gpio.o
-    0x0800114e   0x00000018   Code   RO         3952    i.GpioSetInterrupt  gpio.o
-    0x08001166   0x00000012   Code   RO         3953    i.GpioWrite         gpio.o
-    0x08001178   0x00000010   Code   RO         3905    i.IsFifoEmpty       fifo.o
-    0x08001188   0x0000001a   Code   RO         3906    i.IsFifoFull        fifo.o
-    0x080011a2   0x00000002   Code   RO         3523    i.MemManage_Handler  sysirqhandlers.o
-    0x080011a4   0x00000002   Code   RO         3524    i.NMI_Handler       sysirqhandlers.o
+    0x0800101c   0x000000f8   Code   RO          445    i.GpioMcuSetInterrupt  gpio-board.o
+    0x08001114   0x00000026   Code   RO          446    i.GpioMcuWrite      gpio-board.o
+    0x0800113a   0x00000014   Code   RO         3949    i.GpioRead          gpio.o
+    0x0800114e   0x00000018   Code   RO         3951    i.GpioSetInterrupt  gpio.o
+    0x08001166   0x00000012   Code   RO         3952    i.GpioWrite         gpio.o
+    0x08001178   0x00000010   Code   RO         3904    i.IsFifoEmpty       fifo.o
+    0x08001188   0x0000001a   Code   RO         3905    i.IsFifoFull        fifo.o
+    0x080011a2   0x00000002   Code   RO         3522    i.MemManage_Handler  sysirqhandlers.o
+    0x080011a4   0x00000002   Code   RO         3523    i.NMI_Handler       sysirqhandlers.o
     0x080011a6   0x00000002   PAD
-    0x080011a8   0x00000068   Code   RO         1109    i.NVIC_Init         misc.o
-    0x08001210   0x00000014   Code   RO         1110    i.NVIC_PriorityGroupConfig  misc.o
+    0x080011a8   0x00000068   Code   RO         1108    i.NVIC_Init         misc.o
+    0x08001210   0x00000014   Code   RO         1109    i.NVIC_PriorityGroupConfig  misc.o
     0x08001224   0x00000020   Code   RO            7    i.NVIC_SystemReset  main.o
     0x08001244   0x00000094   Code   RO            8    i.OnRxDone          main.o
     0x080012d8   0x00000018   Code   RO            9    i.OnRxError         main.o
     0x080012f0   0x00000018   Code   RO           10    i.OnRxTimeout       main.o
     0x08001308   0x0000002c   Code   RO           11    i.OnTxDone          main.o
     0x08001334   0x00000018   Code   RO           12    i.OnTxTimeout       main.o
-    0x0800134c   0x0000000c   Code   RO         1899    i.PWR_PVDCmd        stm32l1xx_pwr.o
-    0x08001358   0x0000000c   Code   RO         1901    i.PWR_RTCAccessCmd  stm32l1xx_pwr.o
-    0x08001364   0x0000000c   Code   RO         1902    i.PWR_UltraLowPowerCmd  stm32l1xx_pwr.o
-    0x08001370   0x0000001c   Code   RO         1989    i.RCC_AHBPeriphClockCmd  stm32l1xx_rcc.o
-    0x0800138c   0x0000001c   Code   RO         1992    i.RCC_APB1PeriphClockCmd  stm32l1xx_rcc.o
-    0x080013a8   0x0000001c   Code   RO         1994    i.RCC_APB1PeriphResetCmd  stm32l1xx_rcc.o
-    0x080013c4   0x0000001c   Code   RO         1995    i.RCC_APB2PeriphClockCmd  stm32l1xx_rcc.o
-    0x080013e0   0x0000001c   Code   RO         1997    i.RCC_APB2PeriphResetCmd  stm32l1xx_rcc.o
-    0x080013fc   0x000000c0   Code   RO         2004    i.RCC_GetClocksFreq  stm32l1xx_rcc.o
-    0x080014bc   0x0000002c   Code   RO         2005    i.RCC_GetFlagStatus  stm32l1xx_rcc.o
-    0x080014e8   0x00000010   Code   RO         2007    i.RCC_GetSYSCLKSource  stm32l1xx_rcc.o
-    0x080014f8   0x00000010   Code   RO         2009    i.RCC_HSEConfig     stm32l1xx_rcc.o
-    0x08001508   0x0000000c   Code   RO         2010    i.RCC_HSICmd        stm32l1xx_rcc.o
-    0x08001514   0x00000010   Code   RO         2013    i.RCC_LSEConfig     stm32l1xx_rcc.o
-    0x08001524   0x0000000c   Code   RO         2020    i.RCC_PLLCmd        stm32l1xx_rcc.o
-    0x08001530   0x0000000c   Code   RO         2022    i.RCC_RTCCLKCmd     stm32l1xx_rcc.o
-    0x0800153c   0x00000034   Code   RO         2023    i.RCC_RTCCLKConfig  stm32l1xx_rcc.o
-    0x08001570   0x0000000c   Code   RO         2024    i.RCC_RTCResetCmd   stm32l1xx_rcc.o
-    0x0800157c   0x00000014   Code   RO         2025    i.RCC_SYSCLKConfig  stm32l1xx_rcc.o
-    0x08001590   0x0000005c   Code   RO         2233    i.RTC_AlarmCmd      stm32l1xx_rtc.o
-    0x080015ec   0x0000002a   Code   RO          590    i.RTC_Alarm_IRQHandler  rtc-board.o
-    0x08001616   0x00000012   Code   RO         2236    i.RTC_Bcd2ToByte    stm32l1xx_rtc.o
-    0x08001628   0x00000018   Code   RO         2238    i.RTC_ByteToBcd2    stm32l1xx_rtc.o
-    0x08001640   0x0000001c   Code   RO         2241    i.RTC_ClearFlag     stm32l1xx_rtc.o
-    0x0800165c   0x0000001c   Code   RO         2242    i.RTC_ClearITPendingBit  stm32l1xx_rtc.o
-    0x08001678   0x0000000e   Code   RO         2245    i.RTC_DateStructInit  stm32l1xx_rtc.o
+    0x0800134c   0x0000000c   Code   RO         1898    i.PWR_PVDCmd        stm32l1xx_pwr.o
+    0x08001358   0x0000000c   Code   RO         1900    i.PWR_RTCAccessCmd  stm32l1xx_pwr.o
+    0x08001364   0x0000000c   Code   RO         1901    i.PWR_UltraLowPowerCmd  stm32l1xx_pwr.o
+    0x08001370   0x0000001c   Code   RO         1988    i.RCC_AHBPeriphClockCmd  stm32l1xx_rcc.o
+    0x0800138c   0x0000001c   Code   RO         1991    i.RCC_APB1PeriphClockCmd  stm32l1xx_rcc.o
+    0x080013a8   0x0000001c   Code   RO         1993    i.RCC_APB1PeriphResetCmd  stm32l1xx_rcc.o
+    0x080013c4   0x0000001c   Code   RO         1994    i.RCC_APB2PeriphClockCmd  stm32l1xx_rcc.o
+    0x080013e0   0x0000001c   Code   RO         1996    i.RCC_APB2PeriphResetCmd  stm32l1xx_rcc.o
+    0x080013fc   0x000000c0   Code   RO         2003    i.RCC_GetClocksFreq  stm32l1xx_rcc.o
+    0x080014bc   0x0000002c   Code   RO         2004    i.RCC_GetFlagStatus  stm32l1xx_rcc.o
+    0x080014e8   0x00000010   Code   RO         2006    i.RCC_GetSYSCLKSource  stm32l1xx_rcc.o
+    0x080014f8   0x00000010   Code   RO         2008    i.RCC_HSEConfig     stm32l1xx_rcc.o
+    0x08001508   0x0000000c   Code   RO         2009    i.RCC_HSICmd        stm32l1xx_rcc.o
+    0x08001514   0x00000010   Code   RO         2012    i.RCC_LSEConfig     stm32l1xx_rcc.o
+    0x08001524   0x0000000c   Code   RO         2019    i.RCC_PLLCmd        stm32l1xx_rcc.o
+    0x08001530   0x0000000c   Code   RO         2021    i.RCC_RTCCLKCmd     stm32l1xx_rcc.o
+    0x0800153c   0x00000034   Code   RO         2022    i.RCC_RTCCLKConfig  stm32l1xx_rcc.o
+    0x08001570   0x0000000c   Code   RO         2023    i.RCC_RTCResetCmd   stm32l1xx_rcc.o
+    0x0800157c   0x00000014   Code   RO         2024    i.RCC_SYSCLKConfig  stm32l1xx_rcc.o
+    0x08001590   0x0000005c   Code   RO         2232    i.RTC_AlarmCmd      stm32l1xx_rtc.o
+    0x080015ec   0x0000002a   Code   RO          589    i.RTC_Alarm_IRQHandler  rtc-board.o
+    0x08001616   0x00000012   Code   RO         2235    i.RTC_Bcd2ToByte    stm32l1xx_rtc.o
+    0x08001628   0x00000018   Code   RO         2237    i.RTC_ByteToBcd2    stm32l1xx_rtc.o
+    0x08001640   0x0000001c   Code   RO         2240    i.RTC_ClearFlag     stm32l1xx_rtc.o
+    0x0800165c   0x0000001c   Code   RO         2241    i.RTC_ClearITPendingBit  stm32l1xx_rtc.o
+    0x08001678   0x0000000e   Code   RO         2244    i.RTC_DateStructInit  stm32l1xx_rtc.o
     0x08001686   0x00000002   PAD
-    0x08001688   0x00000044   Code   RO         2248    i.RTC_EnterInitMode  stm32l1xx_rtc.o
-    0x080016cc   0x00000010   Code   RO         2249    i.RTC_ExitInitMode  stm32l1xx_rtc.o
-    0x080016dc   0x00000048   Code   RO         2252    i.RTC_GetDate       stm32l1xx_rtc.o
-    0x08001724   0x00000040   Code   RO         2254    i.RTC_GetITStatus   stm32l1xx_rtc.o
-    0x08001764   0x0000004c   Code   RO         2257    i.RTC_GetTime       stm32l1xx_rtc.o
-    0x080017b0   0x00000044   Code   RO         2261    i.RTC_ITConfig      stm32l1xx_rtc.o
-    0x080017f4   0x00000050   Code   RO         2262    i.RTC_Init          stm32l1xx_rtc.o
-    0x08001844   0x000000bc   Code   RO         2267    i.RTC_SetAlarm      stm32l1xx_rtc.o
-    0x08001900   0x000000a4   Code   RO         2268    i.RTC_SetDate       stm32l1xx_rtc.o
-    0x080019a4   0x000000a8   Code   RO         2269    i.RTC_SetTime       stm32l1xx_rtc.o
-    0x08001a4c   0x0000000c   Code   RO         2282    i.RTC_TimeStructInit  stm32l1xx_rtc.o
-    0x08001a58   0x0000004c   Code   RO         2283    i.RTC_WaitForSynchro  stm32l1xx_rtc.o
-    0x08001aa4   0x00000020   Code   RO          591    i.RtcClearStatus    rtc-board.o
-    0x08001ac4   0x0000002e   Code   RO          592    i.RtcDelayMs        rtc-board.o
+    0x08001688   0x00000044   Code   RO         2247    i.RTC_EnterInitMode  stm32l1xx_rtc.o
+    0x080016cc   0x00000010   Code   RO         2248    i.RTC_ExitInitMode  stm32l1xx_rtc.o
+    0x080016dc   0x00000048   Code   RO         2251    i.RTC_GetDate       stm32l1xx_rtc.o
+    0x08001724   0x00000040   Code   RO         2253    i.RTC_GetITStatus   stm32l1xx_rtc.o
+    0x08001764   0x0000004c   Code   RO         2256    i.RTC_GetTime       stm32l1xx_rtc.o
+    0x080017b0   0x00000044   Code   RO         2260    i.RTC_ITConfig      stm32l1xx_rtc.o
+    0x080017f4   0x00000050   Code   RO         2261    i.RTC_Init          stm32l1xx_rtc.o
+    0x08001844   0x000000bc   Code   RO         2266    i.RTC_SetAlarm      stm32l1xx_rtc.o
+    0x08001900   0x000000a4   Code   RO         2267    i.RTC_SetDate       stm32l1xx_rtc.o
+    0x080019a4   0x000000a8   Code   RO         2268    i.RTC_SetTime       stm32l1xx_rtc.o
+    0x08001a4c   0x0000000c   Code   RO         2281    i.RTC_TimeStructInit  stm32l1xx_rtc.o
+    0x08001a58   0x0000004c   Code   RO         2282    i.RTC_WaitForSynchro  stm32l1xx_rtc.o
+    0x08001aa4   0x00000020   Code   RO          590    i.RtcClearStatus    rtc-board.o
+    0x08001ac4   0x0000002e   Code   RO          591    i.RtcDelayMs        rtc-board.o
     0x08001af2   0x00000002   PAD
-    0x08001af4   0x00000114   Code   RO          594    i.RtcGetCalendarValue  rtc-board.o
-    0x08001c08   0x00000006   Code   RO          595    i.RtcGetMinimumTimeout  rtc-board.o
+    0x08001af4   0x00000114   Code   RO          593    i.RtcGetCalendarValue  rtc-board.o
+    0x08001c08   0x00000006   Code   RO          594    i.RtcGetMinimumTimeout  rtc-board.o
     0x08001c0e   0x00000002   PAD
-    0x08001c10   0x0000003c   Code   RO          596    i.RtcGetTimerElapsedTime  rtc-board.o
-    0x08001c4c   0x00000028   Code   RO          597    i.RtcGetTimerValue  rtc-board.o
-    0x08001c74   0x0000001c   Code   RO          598    i.RtcInit           rtc-board.o
-    0x08001c90   0x0000005c   Code   RO          599    i.RtcRecoverMcuStatus  rtc-board.o
-    0x08001cec   0x00000064   Code   RO          600    i.RtcSetAlarmConfig  rtc-board.o
-    0x08001d50   0x00000074   Code   RO          601    i.RtcSetConfig      rtc-board.o
-    0x08001dc4   0x00000050   Code   RO          602    i.RtcSetTimeout     rtc-board.o
-    0x08001e14   0x0000019c   Code   RO          603    i.RtcStartWakeUpAlarm  rtc-board.o
-    0x08001fb0   0x00000018   Code   RO         2580    i.SPI_Cmd           stm32l1xx_spi.o
-    0x08001fc8   0x0000000e   Code   RO         2588    i.SPI_I2S_GetFlagStatus  stm32l1xx_spi.o
-    0x08001fd6   0x00000004   Code   RO         2591    i.SPI_I2S_ReceiveData  stm32l1xx_spi.o
-    0x08001fda   0x00000004   Code   RO         2592    i.SPI_I2S_SendData  stm32l1xx_spi.o
-    0x08001fde   0x00000038   Code   RO         2593    i.SPI_Init          stm32l1xx_spi.o
-    0x08002016   0x00000018   Code   RO         2596    i.SPI_StructInit    stm32l1xx_spi.o
+    0x08001c10   0x0000003c   Code   RO          595    i.RtcGetTimerElapsedTime  rtc-board.o
+    0x08001c4c   0x00000028   Code   RO          596    i.RtcGetTimerValue  rtc-board.o
+    0x08001c74   0x0000001c   Code   RO          597    i.RtcInit           rtc-board.o
+    0x08001c90   0x0000005c   Code   RO          598    i.RtcRecoverMcuStatus  rtc-board.o
+    0x08001cec   0x00000064   Code   RO          599    i.RtcSetAlarmConfig  rtc-board.o
+    0x08001d50   0x00000074   Code   RO          600    i.RtcSetConfig      rtc-board.o
+    0x08001dc4   0x00000050   Code   RO          601    i.RtcSetTimeout     rtc-board.o
+    0x08001e14   0x0000019c   Code   RO          602    i.RtcStartWakeUpAlarm  rtc-board.o
+    0x08001fb0   0x00000018   Code   RO         2579    i.SPI_Cmd           stm32l1xx_spi.o
+    0x08001fc8   0x0000000e   Code   RO         2587    i.SPI_I2S_GetFlagStatus  stm32l1xx_spi.o
+    0x08001fd6   0x00000004   Code   RO         2590    i.SPI_I2S_ReceiveData  stm32l1xx_spi.o
+    0x08001fda   0x00000004   Code   RO         2591    i.SPI_I2S_SendData  stm32l1xx_spi.o
+    0x08001fde   0x00000038   Code   RO         2592    i.SPI_Init          stm32l1xx_spi.o
+    0x08002016   0x00000018   Code   RO         2595    i.SPI_StructInit    stm32l1xx_spi.o
     0x0800202e   0x00000002   PAD
-    0x08002030   0x0000002c   Code   RO          757    i.SX1272AntSwDeInit  sx1272-board.o
-    0x0800205c   0x00000030   Code   RO          758    i.SX1272AntSwInit   sx1272-board.o
-    0x0800208c   0x00000004   Code   RO          759    i.SX1272CheckRfFrequency  sx1272-board.o
-    0x08002090   0x00000004   Code   RO          760    i.SX1272GetPaSelect  sx1272-board.o
-    0x08002094   0x0000000c   Code   RO         3624    i.SX1272GetStatus   sx1272.o
-    0x080020a0   0x00000214   Code   RO         3625    i.SX1272GetTimeOnAir  sx1272.o
-    0x080022b4   0x00000078   Code   RO         3626    i.SX1272Init        sx1272.o
-    0x0800232c   0x00000088   Code   RO          762    i.SX1272IoInit      sx1272-board.o
-    0x080023b4   0x00000060   Code   RO          763    i.SX1272IoIrqInit   sx1272-board.o
-    0x08002414   0x00000038   Code   RO         3627    i.SX1272IsChannelFree  sx1272.o
-    0x0800244c   0x0000024c   Code   RO         3628    i.SX1272OnDio0Irq   sx1272.o
-    0x08002698   0x000000d8   Code   RO         3629    i.SX1272OnDio1Irq   sx1272.o
-    0x08002770   0x000000ec   Code   RO         3630    i.SX1272OnDio2Irq   sx1272.o
-    0x0800285c   0x00000060   Code   RO         3631    i.SX1272OnDio3Irq   sx1272.o
-    0x080028bc   0x00000020   Code   RO         3632    i.SX1272OnDio4Irq   sx1272.o
-    0x080028dc   0x00000090   Code   RO         3634    i.SX1272OnTimeoutIrq  sx1272.o
-    0x0800296c   0x0000003e   Code   RO         3635    i.SX1272Random      sx1272.o
-    0x080029aa   0x00000010   Code   RO         3636    i.SX1272Read        sx1272.o
+    0x08002030   0x0000002c   Code   RO          756    i.SX1272AntSwDeInit  sx1272-board.o
+    0x0800205c   0x00000030   Code   RO          757    i.SX1272AntSwInit   sx1272-board.o
+    0x0800208c   0x00000004   Code   RO          758    i.SX1272CheckRfFrequency  sx1272-board.o
+    0x08002090   0x00000004   Code   RO          759    i.SX1272GetPaSelect  sx1272-board.o
+    0x08002094   0x0000000c   Code   RO         3623    i.SX1272GetStatus   sx1272.o
+    0x080020a0   0x00000214   Code   RO         3624    i.SX1272GetTimeOnAir  sx1272.o
+    0x080022b4   0x00000078   Code   RO         3625    i.SX1272Init        sx1272.o
+    0x0800232c   0x00000088   Code   RO          761    i.SX1272IoInit      sx1272-board.o
+    0x080023b4   0x00000060   Code   RO          762    i.SX1272IoIrqInit   sx1272-board.o
+    0x08002414   0x00000038   Code   RO         3626    i.SX1272IsChannelFree  sx1272.o
+    0x0800244c   0x0000024c   Code   RO         3627    i.SX1272OnDio0Irq   sx1272.o
+    0x08002698   0x000000d8   Code   RO         3628    i.SX1272OnDio1Irq   sx1272.o
+    0x08002770   0x000000ec   Code   RO         3629    i.SX1272OnDio2Irq   sx1272.o
+    0x0800285c   0x00000060   Code   RO         3630    i.SX1272OnDio3Irq   sx1272.o
+    0x080028bc   0x00000020   Code   RO         3631    i.SX1272OnDio4Irq   sx1272.o
+    0x080028dc   0x00000090   Code   RO         3633    i.SX1272OnTimeoutIrq  sx1272.o
+    0x0800296c   0x0000003e   Code   RO         3634    i.SX1272Random      sx1272.o
+    0x080029aa   0x00000010   Code   RO         3635    i.SX1272Read        sx1272.o
     0x080029ba   0x00000002   PAD
-    0x080029bc   0x00000048   Code   RO         3637    i.SX1272ReadBuffer  sx1272.o
-    0x08002a04   0x0000000a   Code   RO         3638    i.SX1272ReadFifo    sx1272.o
-    0x08002a0e   0x00000026   Code   RO         3639    i.SX1272ReadRssi    sx1272.o
-    0x08002a34   0x0000003c   Code   RO         3640    i.SX1272Reset       sx1272.o
-    0x08002a70   0x000000fc   Code   RO         3641    i.SX1272Send        sx1272.o
-    0x08002b6c   0x00000048   Code   RO          764    i.SX1272SetAntSw    sx1272-board.o
-    0x08002bb4   0x0000001c   Code   RO          765    i.SX1272SetAntSwLowPower  sx1272-board.o
-    0x08002bd0   0x00000044   Code   RO         3642    i.SX1272SetChannel  sx1272.o
-    0x08002c14   0x0000003c   Code   RO         3643    i.SX1272SetMaxPayloadLength  sx1272.o
-    0x08002c50   0x00000078   Code   RO         3644    i.SX1272SetModem    sx1272.o
-    0x08002cc8   0x0000004c   Code   RO         3645    i.SX1272SetOpMode   sx1272.o
-    0x08002d14   0x000001c0   Code   RO         3646    i.SX1272SetRx       sx1272.o
-    0x08002ed4   0x0000022c   Code   RO         3647    i.SX1272SetRxConfig  sx1272.o
-    0x08003100   0x00000028   Code   RO         3648    i.SX1272SetSleep    sx1272.o
-    0x08003128   0x00000028   Code   RO         3649    i.SX1272SetStby     sx1272.o
-    0x08003150   0x000000ac   Code   RO         3650    i.SX1272SetTx       sx1272.o
-    0x080031fc   0x000002cc   Code   RO         3651    i.SX1272SetTxConfig  sx1272.o
-    0x080034c8   0x00000040   Code   RO         3652    i.SX1272StartCad    sx1272.o
-    0x08003508   0x0000000c   Code   RO         3653    i.SX1272Write       sx1272.o
-    0x08003514   0x00000048   Code   RO         3654    i.SX1272WriteBuffer  sx1272.o
-    0x0800355c   0x0000000a   Code   RO         3655    i.SX1272WriteFifo   sx1272.o
+    0x080029bc   0x00000048   Code   RO         3636    i.SX1272ReadBuffer  sx1272.o
+    0x08002a04   0x0000000a   Code   RO         3637    i.SX1272ReadFifo    sx1272.o
+    0x08002a0e   0x00000026   Code   RO         3638    i.SX1272ReadRssi    sx1272.o
+    0x08002a34   0x0000003c   Code   RO         3639    i.SX1272Reset       sx1272.o
+    0x08002a70   0x000000fc   Code   RO         3640    i.SX1272Send        sx1272.o
+    0x08002b6c   0x00000048   Code   RO          763    i.SX1272SetAntSw    sx1272-board.o
+    0x08002bb4   0x0000001c   Code   RO          764    i.SX1272SetAntSwLowPower  sx1272-board.o
+    0x08002bd0   0x00000044   Code   RO         3641    i.SX1272SetChannel  sx1272.o
+    0x08002c14   0x0000003c   Code   RO         3642    i.SX1272SetMaxPayloadLength  sx1272.o
+    0x08002c50   0x00000078   Code   RO         3643    i.SX1272SetModem    sx1272.o
+    0x08002cc8   0x0000004c   Code   RO         3644    i.SX1272SetOpMode   sx1272.o
+    0x08002d14   0x000001c0   Code   RO         3645    i.SX1272SetRx       sx1272.o
+    0x08002ed4   0x0000022c   Code   RO         3646    i.SX1272SetRxConfig  sx1272.o
+    0x08003100   0x00000028   Code   RO         3647    i.SX1272SetSleep    sx1272.o
+    0x08003128   0x00000028   Code   RO         3648    i.SX1272SetStby     sx1272.o
+    0x08003150   0x000000ac   Code   RO         3649    i.SX1272SetTx       sx1272.o
+    0x080031fc   0x000002cc   Code   RO         3650    i.SX1272SetTxConfig  sx1272.o
+    0x080034c8   0x00000040   Code   RO         3651    i.SX1272StartCad    sx1272.o
+    0x08003508   0x0000000c   Code   RO         3652    i.SX1272Write       sx1272.o
+    0x08003514   0x00000048   Code   RO         3653    i.SX1272WriteBuffer  sx1272.o
+    0x0800355c   0x0000000a   Code   RO         3654    i.SX1272WriteFifo   sx1272.o
     0x08003566   0x00000002   PAD
-    0x08003568   0x00000028   Code   RO         2728    i.SYSCFG_EXTILineConfig  stm32l1xx_syscfg.o
-    0x08003590   0x000000cc   Code   RO         1011    i.SetSysClock       system_stm32l1xx.o
-    0x0800365c   0x0000007c   Code   RO          711    i.SpiFormat         spi-board.o
-    0x080036d8   0x00000070   Code   RO          712    i.SpiFrequency      spi-board.o
-    0x08003748   0x0000003a   Code   RO          713    i.SpiInOut          spi-board.o
+    0x08003568   0x00000028   Code   RO         2727    i.SYSCFG_EXTILineConfig  stm32l1xx_syscfg.o
+    0x08003590   0x000000cc   Code   RO         1010    i.SetSysClock       system_stm32l1xx.o
+    0x0800365c   0x0000007c   Code   RO          710    i.SpiFormat         spi-board.o
+    0x080036d8   0x00000070   Code   RO          711    i.SpiFrequency      spi-board.o
+    0x08003748   0x0000003a   Code   RO          712    i.SpiInOut          spi-board.o
     0x08003782   0x00000002   PAD
-    0x08003784   0x000000f8   Code   RO          714    i.SpiInit           spi-board.o
-    0x0800387c   0x00000054   Code   RO         1013    i.SystemInit        system_stm32l1xx.o
-    0x080038d0   0x0000003c   Code   RO          840    i.TIM2_IRQHandler   timer-board.o
-    0x0800390c   0x00000028   Code   RO          841    i.TIM3_IRQHandler   timer-board.o
-    0x08003934   0x00000006   Code   RO         2826    i.TIM_ClearITPendingBit  stm32l1xx_tim.o
-    0x0800393a   0x00000018   Code   RO         2831    i.TIM_Cmd           stm32l1xx_tim.o
-    0x08003952   0x00000018   Code   RO         2851    i.TIM_GetITStatus   stm32l1xx_tim.o
-    0x0800396a   0x00000014   Code   RO         2855    i.TIM_ITConfig      stm32l1xx_tim.o
+    0x08003784   0x000000f8   Code   RO          713    i.SpiInit           spi-board.o
+    0x0800387c   0x00000054   Code   RO         1012    i.SystemInit        system_stm32l1xx.o
+    0x080038d0   0x0000003c   Code   RO          839    i.TIM2_IRQHandler   timer-board.o
+    0x0800390c   0x00000028   Code   RO          840    i.TIM3_IRQHandler   timer-board.o
+    0x08003934   0x00000006   Code   RO         2825    i.TIM_ClearITPendingBit  stm32l1xx_tim.o
+    0x0800393a   0x00000018   Code   RO         2830    i.TIM_Cmd           stm32l1xx_tim.o
+    0x08003952   0x00000018   Code   RO         2850    i.TIM_GetITStatus   stm32l1xx_tim.o
+    0x0800396a   0x00000014   Code   RO         2854    i.TIM_ITConfig      stm32l1xx_tim.o
     0x0800397e   0x00000002   PAD
-    0x08003980   0x0000005c   Code   RO         2899    i.TIM_TimeBaseInit  stm32l1xx_tim.o
-    0x080039dc   0x0000001c   Code   RO         4051    i.TimerExists       timer.o
-    0x080039f8   0x0000000c   Code   RO         4053    i.TimerGetLowPowerEnable  timer.o
-    0x08003a04   0x0000001c   Code   RO         4054    i.TimerGetValue     timer.o
-    0x08003a20   0x0000001a   Code   RO          843    i.TimerHwDelayMs    timer-board.o
+    0x08003980   0x0000005c   Code   RO         2898    i.TIM_TimeBaseInit  stm32l1xx_tim.o
+    0x080039dc   0x0000001c   Code   RO         4050    i.TimerExists       timer.o
+    0x080039f8   0x0000000c   Code   RO         4052    i.TimerGetLowPowerEnable  timer.o
+    0x08003a04   0x0000001c   Code   RO         4053    i.TimerGetValue     timer.o
+    0x08003a20   0x0000001a   Code   RO          842    i.TimerHwDelayMs    timer-board.o
     0x08003a3a   0x00000002   PAD
-    0x08003a3c   0x00000010   Code   RO          845    i.TimerHwGetDelayValue  timer-board.o
-    0x08003a4c   0x00000030   Code   RO          846    i.TimerHwGetElapsedTime  timer-board.o
-    0x08003a7c   0x00000004   Code   RO          847    i.TimerHwGetMinimumTimeout  timer-board.o
-    0x08003a80   0x00000010   Code   RO          849    i.TimerHwGetTimerValue  timer-board.o
-    0x08003a90   0x000000cc   Code   RO          850    i.TimerHwInit       timer-board.o
-    0x08003b5c   0x00000038   Code   RO          851    i.TimerHwStart      timer-board.o
-    0x08003b94   0x00000014   Code   RO          853    i.TimerIncrementDelayCounter  timer-board.o
-    0x08003ba8   0x0000001c   Code   RO          854    i.TimerIncrementTickCounter  timer-board.o
-    0x08003bc4   0x0000000e   Code   RO         4055    i.TimerInit         timer.o
+    0x08003a3c   0x00000010   Code   RO          844    i.TimerHwGetDelayValue  timer-board.o
+    0x08003a4c   0x00000030   Code   RO          845    i.TimerHwGetElapsedTime  timer-board.o
+    0x08003a7c   0x00000004   Code   RO          846    i.TimerHwGetMinimumTimeout  timer-board.o
+    0x08003a80   0x00000010   Code   RO          848    i.TimerHwGetTimerValue  timer-board.o
+    0x08003a90   0x000000cc   Code   RO          849    i.TimerHwInit       timer-board.o
+    0x08003b5c   0x00000038   Code   RO          850    i.TimerHwStart      timer-board.o
+    0x08003b94   0x00000014   Code   RO          852    i.TimerIncrementDelayCounter  timer-board.o
+    0x08003ba8   0x0000001c   Code   RO          853    i.TimerIncrementTickCounter  timer-board.o
+    0x08003bc4   0x0000000e   Code   RO         4054    i.TimerInit         timer.o
     0x08003bd2   0x00000002   PAD
-    0x08003bd4   0x00000028   Code   RO         4056    i.TimerInsertNewHeadTimer  timer.o
-    0x08003bfc   0x0000005c   Code   RO         4057    i.TimerInsertTimer  timer.o
-    0x08003c58   0x00000054   Code   RO         4058    i.TimerIrqHandler   timer.o
-    0x08003cac   0x0000000c   Code   RO         4061    i.TimerSetLowPowerEnable  timer.o
-    0x08003cb8   0x0000001c   Code   RO         4062    i.TimerSetTimeout   timer.o
-    0x08003cd4   0x0000002c   Code   RO         4063    i.TimerSetValue     timer.o
-    0x08003d00   0x00000064   Code   RO         4064    i.TimerStart        timer.o
-    0x08003d64   0x00000090   Code   RO         4065    i.TimerStop         timer.o
-    0x08003df4   0x000000c4   Code   RO          947    i.USART1_IRQHandler  uart-board.o
-    0x08003eb8   0x00000018   Code   RO         3337    i.USART_Cmd         stm32l1xx_usart.o
-    0x08003ed0   0x000000a4   Code   RO         3339    i.USART_DeInit      stm32l1xx_usart.o
-    0x08003f74   0x0000000e   Code   RO         3340    i.USART_GetFlagStatus  stm32l1xx_usart.o
-    0x08003f82   0x00000040   Code   RO         3341    i.USART_GetITStatus  stm32l1xx_usart.o
-    0x08003fc2   0x00000036   Code   RO         3343    i.USART_ITConfig    stm32l1xx_usart.o
-    0x08003ff8   0x000000b4   Code   RO         3344    i.USART_Init        stm32l1xx_usart.o
-    0x080040ac   0x00000008   Code   RO         3351    i.USART_ReceiveData  stm32l1xx_usart.o
-    0x080040b4   0x00000008   Code   RO         3354    i.USART_SendData    stm32l1xx_usart.o
-    0x080040bc   0x00000134   Code   RO          948    i.UartMcuConfig     uart-board.o
-    0x080041f0   0x00000064   Code   RO          951    i.UartMcuInit       uart-board.o
-    0x08004254   0x00000002   Code   RO         3525    i.UsageFault_Handler  sysirqhandlers.o
+    0x08003bd4   0x00000028   Code   RO         4055    i.TimerInsertNewHeadTimer  timer.o
+    0x08003bfc   0x0000005c   Code   RO         4056    i.TimerInsertTimer  timer.o
+    0x08003c58   0x00000054   Code   RO         4057    i.TimerIrqHandler   timer.o
+    0x08003cac   0x0000000c   Code   RO         4060    i.TimerSetLowPowerEnable  timer.o
+    0x08003cb8   0x0000001c   Code   RO         4061    i.TimerSetTimeout   timer.o
+    0x08003cd4   0x0000002c   Code   RO         4062    i.TimerSetValue     timer.o
+    0x08003d00   0x00000064   Code   RO         4063    i.TimerStart        timer.o
+    0x08003d64   0x00000090   Code   RO         4064    i.TimerStop         timer.o
+    0x08003df4   0x000000c4   Code   RO          946    i.USART1_IRQHandler  uart-board.o
+    0x08003eb8   0x00000018   Code   RO         3336    i.USART_Cmd         stm32l1xx_usart.o
+    0x08003ed0   0x000000a4   Code   RO         3338    i.USART_DeInit      stm32l1xx_usart.o
+    0x08003f74   0x0000000e   Code   RO         3339    i.USART_GetFlagStatus  stm32l1xx_usart.o
+    0x08003f82   0x00000040   Code   RO         3340    i.USART_GetITStatus  stm32l1xx_usart.o
+    0x08003fc2   0x00000036   Code   RO         3342    i.USART_ITConfig    stm32l1xx_usart.o
+    0x08003ff8   0x000000b4   Code   RO         3343    i.USART_Init        stm32l1xx_usart.o
+    0x080040ac   0x00000008   Code   RO         3350    i.USART_ReceiveData  stm32l1xx_usart.o
+    0x080040b4   0x00000008   Code   RO         3353    i.USART_SendData    stm32l1xx_usart.o
+    0x080040bc   0x00000134   Code   RO          947    i.UartMcuConfig     uart-board.o
+    0x080041f0   0x00000064   Code   RO          950    i.UartMcuInit       uart-board.o
+    0x08004254   0x00000002   Code   RO         3524    i.UsageFault_Handler  sysirqhandlers.o
     0x08004256   0x00000002   PAD
-    0x08004258   0x00000020   Code   RO         4478    i.__0printf$1       mc_w.l(printf1.o)
-    0x08004278   0x000000aa   Code   RO         4853    i.__kernel_poly     m_ws.l(poly.o)
+    0x08004258   0x00000020   Code   RO         4477    i.__0printf$1       mc_w.l(printf1.o)
+    0x08004278   0x000000aa   Code   RO         4852    i.__kernel_poly     m_ws.l(poly.o)
     0x08004322   0x00000002   PAD
-    0x08004324   0x00000010   Code   RO         4760    i.__mathlib_dbl_divzero  m_ws.l(dunder.o)
-    0x08004334   0x00000006   Code   RO         4761    i.__mathlib_dbl_infnan  m_ws.l(dunder.o)
-    0x0800433a   0x0000000c   Code   RO         4763    i.__mathlib_dbl_invalid  m_ws.l(dunder.o)
-    0x08004346   0x0000000e   Code   RO         4870    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08004354   0x00000002   Code   RO         4871    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08004356   0x0000000e   Code   RO         4872    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x08004364   0x0000000c   Code   RO         4837    i.__set_errno       mc_w.l(errno.o)
-    0x08004370   0x00000154   Code   RO         4485    i._printf_core      mc_w.l(printf1.o)
-    0x080044c4   0x000000dc   Code   RO         4391    i.ceil              m_ws.l(ceil.o)
-    0x080045a0   0x000000dc   Code   RO         4395    i.floor             m_ws.l(floor.o)
+    0x08004324   0x00000010   Code   RO         4759    i.__mathlib_dbl_divzero  m_ws.l(dunder.o)
+    0x08004334   0x00000006   Code   RO         4760    i.__mathlib_dbl_infnan  m_ws.l(dunder.o)
+    0x0800433a   0x0000000c   Code   RO         4762    i.__mathlib_dbl_invalid  m_ws.l(dunder.o)
+    0x08004346   0x0000000e   Code   RO         4869    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08004354   0x00000002   Code   RO         4870    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08004356   0x0000000e   Code   RO         4871    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08004364   0x0000000c   Code   RO         4836    i.__set_errno       mc_w.l(errno.o)
+    0x08004370   0x00000154   Code   RO         4484    i._printf_core      mc_w.l(printf1.o)
+    0x080044c4   0x000000dc   Code   RO         4390    i.ceil              m_ws.l(ceil.o)
+    0x080045a0   0x000000dc   Code   RO         4394    i.floor             m_ws.l(floor.o)
     0x0800467c   0x00000024   Code   RO           14    i.fputc             main.o
-    0x080046a0   0x00000050   Code   RO         4694    i.free              mc_w.l(malloc.o)
+    0x080046a0   0x00000050   Code   RO         4693    i.free              mc_w.l(malloc.o)
     0x080046f0   0x00000046   Code   RO           15    i.int2array         main.o
     0x08004736   0x00000002   PAD
-    0x08004738   0x0000035c   Code   RO         4789    i.log               m_ws.l(log.o)
-    0x08004a94   0x000000e4   Code   RO         4399    i.log10             m_ws.l(log10.o)
-    0x08004b78   0x00000204   Code   RO           16    i.main              main.o
-    0x08004d7c   0x0000006c   Code   RO         4695    i.malloc            mc_w.l(malloc.o)
-    0x08004de8   0x00000012   Code   RO         3566    i.memcpy1           utilities.o
-    0x08004dfa   0x00000002   PAD
-    0x08004dfc   0x00000094   Code   RO         4416    i.round             m_ws.l(round.o)
-    0x08004e90   0x00000018   Data   RO          605    .constdata          rtc-board.o
-    0x08004ea8   0x00000054   Data   RO          767    .constdata          sx1272-board.o
-    0x08004efc   0x000000e0   Data   RO         3657    .constdata          sx1272.o
-    0x08004fdc   0x00000004   PAD
-    0x08004fe0   0x00000038   Data   RO         4790    .constdata          m_ws.l(log.o)
-    0x08005018   0x00000008   Data   RO         4855    .constdata          m_ws.l(qnan.o)
-    0x08005020   0x00000020   Data   RO         4868    Region$$Table       anon$$obj.o
+    0x08004738   0x0000035c   Code   RO         4788    i.log               m_ws.l(log.o)
+    0x08004a94   0x000000e4   Code   RO         4398    i.log10             m_ws.l(log10.o)
+    0x08004b78   0x00000234   Code   RO           16    i.main              main.o
+    0x08004dac   0x0000006c   Code   RO         4694    i.malloc            mc_w.l(malloc.o)
+    0x08004e18   0x00000012   Code   RO         3565    i.memcpy1           utilities.o
+    0x08004e2a   0x00000002   PAD
+    0x08004e2c   0x00000094   Code   RO         4415    i.round             m_ws.l(round.o)
+    0x08004ec0   0x00000018   Data   RO          604    .constdata          rtc-board.o
+    0x08004ed8   0x00000054   Data   RO          766    .constdata          sx1272-board.o
+    0x08004f2c   0x000000e0   Data   RO         3656    .constdata          sx1272.o
+    0x0800500c   0x00000004   PAD
+    0x08005010   0x00000038   Data   RO         4789    .constdata          m_ws.l(log.o)
+    0x08005048   0x00000008   Data   RO         4854    .constdata          m_ws.l(qnan.o)
+    0x08005050   0x00000020   Data   RO         4867    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000a10, Max: 0x00004000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000a18, Max: 0x00004000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x0000000f   Data   RW           18    .data               main.o
-    0x2000000f   0x00000001   Data   RW          372    .data               board.o
-    0x20000010   0x00000010   Data   RW          606    .data               rtc-board.o
-    0x20000020   0x00000001   Data   RW          768    .data               sx1272-board.o
-    0x20000021   0x00000007   PAD
-    0x20000028   0x00000020   Data   RW          855    .data               timer-board.o
-    0x20000048   0x00000002   Data   RW          954    .data               uart-board.o
-    0x2000004a   0x00000002   PAD
-    0x2000004c   0x0000001d   Data   RW         1014    .data               system_stm32l1xx.o
-    0x20000069   0x00000019   Data   RW         2027    .data               stm32l1xx_rcc.o
-    0x20000082   0x00000002   PAD
-    0x20000084   0x00000020   Data   RW         3658    .data               sx1272.o
-    0x200000a4   0x00000001   Data   RW         3845    .data               adc_1.o
-    0x200000a5   0x00000003   PAD
-    0x200000a8   0x00000008   Data   RW         4066    .data               timer.o
-    0x200000b0   0x00000004   Data   RW         4822    .data               mc_w.l(stdout.o)
-    0x200000b4   0x00000004   Data   RW         4833    .data               mc_w.l(mvars.o)
-    0x200000b8   0x00000004   Data   RW         4834    .data               mc_w.l(mvars.o)
-    0x200000bc   0x00000004   Data   RW         4838    .data               mc_w.l(errno.o)
-    0x200000c0   0x0000001c   Zero   RW           17    .bss                main.o
-    0x200000dc   0x00000034   Zero   RW          369    .bss                board.o
-    0x20000110   0x00000038   Zero   RW          371    .bss                board.o
-    0x20000148   0x00000040   Zero   RW          448    .bss                gpio-board.o
-    0x20000188   0x00000012   Zero   RW          715    .bss                spi-board.o
-    0x2000019a   0x00000002   PAD
-    0x2000019c   0x00000018   Zero   RW          766    .bss                sx1272-board.o
-    0x200001b4   0x00000035   Zero   RW          953    .bss                uart-board.o
-    0x200001e9   0x00000003   PAD
-    0x200001ec   0x00000224   Zero   RW         3656    .bss                sx1272.o
-    0x20000410   0x00000200   Zero   RW         1003    HEAP                startup_stm32l1xx_md.o
-    0x20000610   0x00000400   Zero   RW         1002    STACK               startup_stm32l1xx_md.o
+    0x20000000   0x00000011   Data   RW           18    .data               main.o
+    0x20000011   0x00000001   Data   RW          371    .data               board.o
+    0x20000012   0x00000006   PAD
+    0x20000018   0x00000010   Data   RW          605    .data               rtc-board.o
+    0x20000028   0x00000001   Data   RW          767    .data               sx1272-board.o
+    0x20000029   0x00000007   PAD
+    0x20000030   0x00000020   Data   RW          854    .data               timer-board.o
+    0x20000050   0x00000002   Data   RW          953    .data               uart-board.o
+    0x20000052   0x00000002   PAD
+    0x20000054   0x0000001d   Data   RW         1013    .data               system_stm32l1xx.o
+    0x20000071   0x00000019   Data   RW         2026    .data               stm32l1xx_rcc.o
+    0x2000008a   0x00000002   PAD
+    0x2000008c   0x00000020   Data   RW         3657    .data               sx1272.o
+    0x200000ac   0x00000001   Data   RW         3844    .data               adc_1.o
+    0x200000ad   0x00000003   PAD
+    0x200000b0   0x00000008   Data   RW         4065    .data               timer.o
+    0x200000b8   0x00000004   Data   RW         4821    .data               mc_w.l(stdout.o)
+    0x200000bc   0x00000004   Data   RW         4832    .data               mc_w.l(mvars.o)
+    0x200000c0   0x00000004   Data   RW         4833    .data               mc_w.l(mvars.o)
+    0x200000c4   0x00000004   Data   RW         4837    .data               mc_w.l(errno.o)
+    0x200000c8   0x0000001c   Zero   RW           17    .bss                main.o
+    0x200000e4   0x00000034   Zero   RW          368    .bss                board.o
+    0x20000118   0x00000038   Zero   RW          370    .bss                board.o
+    0x20000150   0x00000040   Zero   RW          447    .bss                gpio-board.o
+    0x20000190   0x00000012   Zero   RW          714    .bss                spi-board.o
+    0x200001a2   0x00000002   PAD
+    0x200001a4   0x00000018   Zero   RW          765    .bss                sx1272-board.o
+    0x200001bc   0x00000035   Zero   RW          952    .bss                uart-board.o
+    0x200001f1   0x00000003   PAD
+    0x200001f4   0x00000224   Zero   RW         3655    .bss                sx1272.o
+    0x20000418   0x00000200   Zero   RW         1002    HEAP                startup_stm32l1xx_md.o
+    0x20000618   0x00000400   Zero   RW         1001    STACK               startup_stm32l1xx_md.o
 
 
 ==============================================================================
@@ -3000,42 +3001,42 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       256         10          0          0          0       2188   adc-board.o
-        44          6          0          1          0       1218   adc_1.o
-       282         24          0          1        108       2148   board.o
-        30          0          0          0          0        590   delay.o
-       110          0          0          0          0       3248   fifo.o
-       992         56          0          0         64       8280   gpio-board.o
-        86          0          0          0          0       2881   gpio.o
-       992        274          0         15         28     292092   main.o
-       124         16          0          0          0       1967   misc.o
-      1330         90         24         16          0      10079   rtc-board.o
-       542         26          0          0         18       4236   spi-board.o
-        36          8        244          0       1536        904   startup_stm32l1xx_md.o
-       168         18          0          0          0       4937   stm32l1xx_adc.o
-        28          6          0          0          0        692   stm32l1xx_dbgmcu.o
-       148         16          0          0          0       2704   stm32l1xx_exti.o
-       176          0          0          0          0       4211   stm32l1xx_gpio.o
-        36         18          0          0          0       1855   stm32l1xx_pwr.o
-       544        102          0         25          0      13120   stm32l1xx_rcc.o
-      1256         80          0          0          0      14676   stm32l1xx_rtc.o
-       126          0          0          0          0       4687   stm32l1xx_spi.o
-        40          6          0          0          0        760   stm32l1xx_syscfg.o
-       166         22          0          0          0       4318   stm32l1xx_tim.o
-       516         26          0          0          0       7560   stm32l1xx_usart.o
-       432         34         84          1         24       8778   sx1272-board.o
-      5040        260        224         32        548      25713   sx1272.o
-        10          0          0          0          0       2565   sysirqhandlers.o
-       288         30          0         29          0      81053   system_stm32l1xx.o
-       518         54          0         32          0       7385   timer-board.o
-       626         56          0          8          0       8604   timer.o
-       604         24          0          2         53       3543   uart-board.o
-        18          0          0          0          0       1138   utilities.o
+       256         10          0          0          0       2104   adc-board.o
+        44          6          0          1          0       1134   adc_1.o
+       282         24          0          1        108       2036   board.o
+        30          0          0          0          0        562   delay.o
+       110          0          0          0          0       3080   fifo.o
+       992         56          0          0         64       7916   gpio-board.o
+        86          0          0          0          0       2741   gpio.o
+      1040        270          0         17         28     291232   main.o
+       124         16          0          0          0       1883   misc.o
+      1330         90         24         16          0       9659   rtc-board.o
+       542         26          0          0         18       4068   spi-board.o
+        36          8        244          0       1536        876   startup_stm32l1xx_md.o
+       168         18          0          0          0       4769   stm32l1xx_adc.o
+        28          6          0          0          0        664   stm32l1xx_dbgmcu.o
+       148         16          0          0          0       2592   stm32l1xx_exti.o
+       176          0          0          0          0       4043   stm32l1xx_gpio.o
+        36         18          0          0          0       1771   stm32l1xx_pwr.o
+       544        102          0         25          0      12616   stm32l1xx_rcc.o
+      1256         80          0          0          0      14144   stm32l1xx_rtc.o
+       126          0          0          0          0       4491   stm32l1xx_spi.o
+        40          6          0          0          0        732   stm32l1xx_syscfg.o
+       166         22          0          0          0       4150   stm32l1xx_tim.o
+       516         26          0          0          0       7308   stm32l1xx_usart.o
+       432         34         84          1         24       8442   sx1272-board.o
+      5040        260        224         32        548      24761   sx1272.o
+        10          0          0          0          0       2425   sysirqhandlers.o
+       288         30          0         29          0      80689   system_stm32l1xx.o
+       518         54          0         32          0       7021   timer-board.o
+       626         56          0          8          0       8212   timer.o
+       604         24          0          2         53       3403   uart-board.o
+        18          0          0          0          0       1082   utilities.o
 
     ----------------------------------------------------------------------
-     15596       1262        612        176       2384     528130   Object Totals
+     15644       1258        612        184       2384     520606   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        32          0          4         14          5          0   (incl. Padding)
+        32          0          4         20          5          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -3109,15 +3110,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     19868       1452        676        192       2384     519542   Grand Totals
-     19868       1452        676        192       2384     519542   ELF Image Totals
-     19868       1452        676        192          0          0   ROM Totals
+     19916       1448        676        200       2384     512018   Grand Totals
+     19916       1448        676        200       2384     512018   ELF Image Totals
+     19916       1448        676        200          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                20544 (  20.06kB)
-    Total RW  Size (RW Data + ZI Data)              2576 (   2.52kB)
-    Total ROM Size (Code + RO Data + RW Data)      20736 (  20.25kB)
+    Total RO  Size (Code + RO Data)                20592 (  20.11kB)
+    Total RW  Size (RW Data + ZI Data)              2584 (   2.52kB)
+    Total ROM Size (Code + RO Data + RW Data)      20792 (  20.30kB)
 
 ==============================================================================
 

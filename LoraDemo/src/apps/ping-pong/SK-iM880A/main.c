@@ -195,7 +195,7 @@ int main( void )
 				if (gps_received == true)
 				{
 					char location[32] = "\0";
-					char *cCount;
+					char *cCount1, *cCount2;
 					printf("New GPS received: ");
 					GPS_Convert(received_data, &gpsData);
 					strcat(location, gpsData.lat);
@@ -209,18 +209,26 @@ int main( void )
 //					printf("\n");
 					gps_received = false;
 					
-					dem3++;
-					if (dem3 == 500)
+					dem1++;
+					if (dem1 == 500){
+					dem2++;
+					dem1=0;
+					}
+					if (dem2 == 500){				
 					NVIC_SystemReset();
+					}
 //					if(dem3==0)
 //					{
 //					dem2++;
 //					if(dem2==0) dem1++;
 //					}
 					
-					cCount = int2array(dem3);
+					cCount1 = int2array(dem1);
+					cCount2 = int2array(dem2);
 					strcat(location, " - ");
-					strcat(location, cCount);
+					strcat(location, cCount1);
+					strcat(location, " - ");
+					strcat(location, cCount2);
 					printf(location);
 					printf("\n");
 					
@@ -233,7 +241,8 @@ int main( void )
 					DelayMs( 500 ); 
 					Radio.Send( (uint8_t*)location, 32 );
 					
-					free(cCount);
+					free(cCount1);
+					free(cCount2);
 //					dem3++;
 //					if (dem3 == 500)
 //						NVIC_SystemReset();
