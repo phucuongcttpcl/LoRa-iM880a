@@ -1,0 +1,16 @@
+{
+  "name": "LoRen_2_AWS",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.0",
+    "serialport": "^6.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PISCESIA",
+  "license": "ISC"
+}
