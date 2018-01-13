@@ -199,7 +199,7 @@ int main( void )
 					printf("New GPS received: ");
 					GPS_Convert(received_data, &gpsData);
 					strcat(location, gpsData.lat);
-					strcat(location, ", ");
+					strcat(location, " - ");
 					strcat(location, gpsData.lon);
 					
 //					printf("\nLatitude: ");
