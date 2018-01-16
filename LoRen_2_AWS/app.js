@@ -2,7 +2,7 @@ var awsIOT = require("aws-iot-device-sdk");
 serialport = require("serialport");
 
 // Set up UART Communication
-var serialPortName = '/dev/ttyS0'; //'/dev/ttyS0'
+var serialPortName = 'COM4'; //'/dev/ttyS0'
 var readData = '';
 
 var port = new serialport(serialPortName, {
@@ -46,7 +46,8 @@ function onPortData(data) {
 
     device.publish('LoRenMess', JSON.stringify({
         messID: messID++,
-        packID: splitData[2],
+        packID1: splitData[2],
+        packID2: spkitData[3],
         latitude: splitData[0],
         longitude: splitData[1],
         timeStamp: Date.now().toString()
