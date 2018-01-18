@@ -1,0 +1,134 @@
+The oldest data was removed. Continue...
+643.6249E - 224 - 0 - 127 - -65
+1047.9125N - 10643.6249E - 225 - 0 - 124 - -63
+1047.9125N - 10643.6249E - 226 - 0 - 125 - -66
+1047.9125N - 10643.6249E - 227 - 0 - 125 - -63
+1047.9125N - 10643.6249E - 228 - 0 - 125 - -62
+1047.9125N - 10643.6249E - 229 - 0 - 123 - -55
+1047.9125N - 10643.6249E - 230 - 0 - 123 - -59
+1047.9125N - 10643.6249E - 231 - 0 - 123 - -55
+1047.9125N - 10643.6249E - 232 - 0 - 123 - -52
+1047.9125N - 10643.6249E - 233 - 0 - 126 - -64
+1047.9125N - 10643.6249E - 234 - 0 - 125 - -61
+1047.9124N - 10643.6249E - 235 - 0 - 124 - -63
+1047.9124N - 10643.6249E - 236 - 0 - 126 - -60
+1047.9124N - 10643.6249E - 237 - 0 - 125 - -61
+1047.9124N - 10643.6249E - 238 - 0 - 124 - -58
+1047.9124N - 10643.6249E - 239 - 0 - 125 - -63
+1047.9124N - 10643.6249E - 240 - 0 - 124 - -58
+1047.9124N - 10643.6248E - 241 - 0 - 126 - -66
+1047.9125N - 10643.6248E - 242 - 0 - 126 - -67
+1047.9125N - 10643.6248E - 243 - 0 - 127 - -68
+1047.9125N - 10643.6248E - 244 - 0 - 127 - -69
+1047.9125N - 10643.6248E - 245 - 0 - 128 - -74
+1047.9125N - 10643.6248E - 246 - 0 - 125 - -64
+1047.9125N - 10643.6248E - 247 - 0 - 126 - -64
+1047.9125N - 10643.6248E - 248 - 0 - 124 - -62
+1047.9125N - 10643.6248E - 249 - 0 - 126 - -64
+1047.9125N - 10643.6248E - 250 - 0 - 125 - -61
+1047.9125N - 10643.6248E - 251 - 0 - 126 - -67
+1047.9125N - 10643.6249E - 252 - 0 - 126 - -67
+1047.9125N - 10643.6249E - 253 - 0 - 124 - -59
+1047.9125N - 10643.6249E - 254 - 0 - 124 - -63
+1047.9125N - 10643.6249E - 255 - 0 - 125 - -65
+1047.9125N - 10643.6249E - 256 - 0 - 126 - -69
+1047.9125N - 10643.6249E - 257 - 0 - 127 - -72
+1047.9125N - 10643.6249E - 258 - 0 - 127 - -75
+1047.9125N - 10643.6249E - 259 - 0 - 126 - -65
+1047.9125N - 10643.6249E - 260 - 0 - 127 - -75
+1047.9125N - 10643.6249E - 261 - 0 - 129 - -77
+1047.9125N - 10643.6249E - 262 - 0 - 130 - -81
+1047.9125N - 10643.6249E - 263 - 0 - 129 - -76
+RX Error
+ello1047.9125N - 10643.6249E - 265 - 0 - 130 - -85
+RX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+ello1047.9125N - 10643.6254E - 288 - 0 - 127 - -68
+RX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloelloelloRX Error
+elloRX Error
+elloRX Error
+ello1047.9120N - 10643.6263E - 331 - 0 - 127 - -79
+1047.9120N - 10643.6263E - 332 - 0 - 129 - -80
+RX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+ello1047.9120N - 10643.6263E - 342 - 0 - 127 - -73
+RX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+ello1047.9120N - 10643.6263E - 356 - 0 - 129 - -79
+1047.9120N - 10643.6263E - 357 - 0 - 127 - -71
+RX Error
+elloRX Error
+elloRX Error
+ello1047.9118N - 10643.6264E - 362 - 0 - 131 - -84
+RX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloelloello{FF}elloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+elloRX Error
+ello1047.9118N - 10643.6275E - 403 - 0 - 131 - -85
+1047.9118N - 10643.6273E - 409 - 0 - 131 - -86
+1047.9118N - 10643.6273E - 410 - 0 - 128 - -78
+RX Error
+elloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloRX Error
+elloRX Error
+ello1047.9118N - 10643.6273E - 429 - 0 - 129 - -80
+RX Error
+elloRX Error
+ello1047.9118N - 10643.6273E - 433 - 0 - 129 - -79
+RX Error
+ello1047.9118N - 10643.6273E - 435 - 0 - 129 - -81
+1047.9118N - 10643.6273E - 436 - 0 - 130 - -86
+RX Error
+elloRX Error
+ello1047.9118N - 10643.6273E - 440 - 0 - 131 - -84
+1047.9118N - 10643.6273E - 441 - 0 - 130 - -82
+1047.9118N - 10643.6273E - 443 - 0 - 129 - -79
+RX Error
+elloelloelloelloelloelloelloelloelloelloelloelloeelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloelloello

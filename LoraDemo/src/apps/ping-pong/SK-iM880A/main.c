@@ -178,9 +178,9 @@ int main( void )
 //		*/
 //		Radio.Rx(0);
 //		printf("Hello");
-//		/*
-//		Sending data code
-//		*/
+		/*
+		Sending data code
+		*/
 		DelayMs(2000);
 		printf("$PMTK314,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0*29\r\n");
 		
@@ -194,7 +194,7 @@ int main( void )
     {
 				if (gps_received == true)
 				{
-					char location[32] = "\0";
+					char location[38] = "\0";
 					char *cCount1, *cCount2;
 					printf("New GPS received: ");
 					GPS_Convert(received_data, &gpsData);
@@ -239,7 +239,7 @@ int main( void )
 //					Buffer[3] = dem3;		 //dem3
 //					Buffer[4] = 0;       //RSSI
 					DelayMs( 500 ); 
-					Radio.Send( (uint8_t*)location, 32 );
+					Radio.Send( (uint8_t*)location, 38 );
 					
 					free(cCount1);
 					free(cCount2);
@@ -249,7 +249,7 @@ int main( void )
 				}
 				else
 				{
-					DelayMs( 1000 );
+					DelayMs( 3000 );
 					printf ("Waiting for GPS\r\n");
 //					GpioWrite( &Led2, GpioRead( &Led2 ) ^ 1 );
 				}
@@ -271,10 +271,10 @@ void OnTxDone( void )
 }
 void OnRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
 {
-		char location[32] = "\0";	
+		char location[38] = "\0";	
   //I2C_LCD_Clear( );    
 		BufferSize = size;
-    memcpy( location, payload, 32 );
+    memcpy( location, payload, 38 );
     RssiValue = rssi;
 	  SnrValue = snr;
     GpioWrite( &Led2, GpioRead( &Led2 ) ^ 1 );
